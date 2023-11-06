@@ -132,7 +132,8 @@ intelligence increases explosion's damage but you have to have high hp in order 
 
 
 **enemy behavior:**
-
+enemy also has a behavior that reacts based on the situation presented to them. If the hp is falling down badly, theny the enemy will use healing. If the enemy
+stamina is falling down or inssuficient to use any skills or move then it will use a move that regenerate stamina.
 
   
 
