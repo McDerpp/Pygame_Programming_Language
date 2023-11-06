@@ -24,25 +24,25 @@ Block() -----> Blocks damage for certain amount of turns
 
 
 **The player and the enemies will have randomized stats and skills**
-# 0 - agility 
-# 1 - strength 
-# 2 - intelligence 
-# 3 - HP
-# 4 - physical_damage 
-# 5 - magical_damage 
-# 6 - physical_defence 
-# 7 - magical_defence 
-# 8 - dodge_chance 
-# 9 - perfect_dodge 
-# 10 - crit 
-# 11 - crit_chance 
-# 12 - additional_attack_chance 
-# 13 - block_chance 
-# 14 - block_damage 
-# 15 - block_damage_complete
-# 16 - stamina
-# 17 - [state,state_counter]
-# 18 - skills
+0 - agility 
+1 - strength 
+2 - intelligence 
+3 - HP
+4 - physical_damage 
+5 - magical_damage 
+6 - physical_defence 
+7 - magical_defence 
+8 - dodge_chance 
+9 - perfect_dodge 
+10 - crit 
+11 - crit_chance 
+12 - additional_attack_chance 
+13 - block_chance 
+14 - block_damage 
+15 - block_damage_complete
+16 - stamina
+17 - [state,state_counter]
+ 18 - skills
 
 **Primary stats intelligence,strength and agility has its own unique effect to the stats and modifier of each character**
 
