@@ -1,26 +1,32 @@
-**Pygame_Programming_Language**
 
-Assets is here ---> https://drive.google.com/drive/folders/1qNa-Mu_ZLSvCqLGN9gnUJS0KiqCCoEmc?usp=sharing
-
-Technology used: pygame
-
-**Overview:**
-In this project the main focus is to learn how to make programming languages rules or syntax and it is done through
-making this game. This is a high-fantasy turn based game utilizing Python's pygame engine. It uses
-pre rendered 3D images from blender to simulated animations. The user controls the character or interacts
+This is a high-fantasy turn-based game utilizing Python's Pygame engine. It uses
+pre-rendered 3D images from Blender to simulate animations. The user controls the character or interacts
 with the game by using programming languages made specifically for this project. The user inputs actions based
 on the syntax specified.
 
-**How does the game work:**
-The user starts the game by writing a set of command using the syntax that is specifically made for this game. The game
-has several commands and some of these are:
+**[Purpose & Goals]**
+ - The purpose of this project is to be able to learn how to make programming language rules and syntax in creative way which is creating a game.
 
-Attack() ---> damages enemy and uses the stamina resource of the player
+**[Technologies used]**
+ - **Pygame**: Game logic
+ - **Blender**: Assets creation and animation rendering
+
+**[Features]**
+ - Turn-based combat controlled through typing programming language syntax made specifically for this project.
+ - Pre-rendered assets and animation
+ - 
+
+
+**How does the game work:**
+The user starts the game by writing a set of commands using the syntax that is specifically made for this game. The game
+has several commands some of these are:
+
+Attack() ---> damages the enemy and uses the stamina resource of the player
 Meditate() ----> heals the player's Stamina and HP
 Bash() ----> stuns the enemy for certain turns.
-Explosion() ----> damages both the player and enemy
+Explosion() ----> damages both the player and the enemy
 Heal() -----> heals the player's HP and uses the stamina resource of the player
-Block() -----> Blocks damage for certain amount of turns
+Block() -----> Blocks damage for a certain amount of turns
 
 
 **The player and the enemies will have randomized stats and skills**
@@ -62,7 +68,7 @@ Block() -----> Blocks damage for certain amount of turns
 
  18 - skills
 
-**Primary stats intelligence,strength and agility has its own unique effect to the stats and modifier of each character**
+**Primary stats intelligence, strength and agility have its own unique effect on the stats and modifier of each character**
 
 Agility
   -dodge chance
@@ -102,10 +108,10 @@ state None
 special skill ['hp_drain()', 'explode()', 'stamina_drain()', 'bash()']
 normal skill ['heal()', 'meditate()', 'attack()', 'block()']
 
-Each stats have better synergy with different skills. For instance explosion deals massive damage for both character at the cost
-of HP. Having more HP means youll survive the damage dealt to your own.
+Each state has better synergy with different skills. For instance, an explosion deals massive damage for both characters at the cost
+of HP. Having more HP means you'll survive the damage dealt to your own.
 
-intelligence increases explosion's damage but you have to have high hp in order to use it effectively.
+intelligence increases the explosion's damage but you have to have high hp to use it effectively.
 
 
 
@@ -122,12 +128,12 @@ intelligence increases explosion's damage but you have to have high hp in order 
 
 
 **  win condition:**
-  enemy character runs out of stamina and does not have skill that restores stamina
-  enemy character hp falls to zero
+  enemy character runs out of stamina and does not have a skill that restores stamina
+  enemy character's hp falls to zero
 
 **  lose condition**
-  player character hp falls down to zero
-  player chacter has no stamina left and have not used any stamina healing move
+  player character's hp falls down to zero
+  player character has no stamina left and has not used any stamina healing move
 
 
 
