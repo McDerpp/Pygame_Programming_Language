@@ -14,7 +14,6 @@ on the syntax specified.
 **[Features]**
  - Turn-based combat controlled through typing programming language syntax made specifically for this project.
  - Pre-rendered assets and animation
- - 
 
 
 **How does the game work:**
